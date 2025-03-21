@@ -18,15 +18,8 @@
             <li><a href="Contato.html">Contato</a></li>
           </ul>
           </nav>
-        </div>
       </header>
     
-
-     
-     <footer>
-      <img src="logo-branca.png">
-      <p class="copyright">&copy;criado por Fernando- 2025</p>
-     </footer>
-    </body>
-    <html>
-
+    <main>
+    <form>
+    <
