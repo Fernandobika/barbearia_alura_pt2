@@ -22,4 +22,21 @@
     
     <main>
     <form>
-    <
+    <label for="noesobrenome"> Nome e sobrenome </label>
+    <input 
+     <label for="email">Email</label>
+        <input type="text" id="email">
+
+        <label for="telefone">Telefone</label>
+        <input type="text" id="telefone">
+
+        <input type="submit" value="Enviar formulário">
+      </form>
+    </main>
+    
+   <footer>
+    <img src="logo-branco.png">
+    <p class="copyright">&copy; Criado por Prof Weslly - 2025</p>
+  </footer>
+  </body>
+  </html>
