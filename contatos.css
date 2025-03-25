@@ -25,3 +25,21 @@ form label form p {
 .checkbox {
     margin:20px 0;
 }
+
+.enviar{
+    white:40%;
+    padding: 15px;
+    background-color: gray;
+    color:blue;
+    font-weight:bold;
+    font-size:18px;
+    border:nome;
+    border-radius:5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color:darkslategrey;
+    transition: scale(1.2);
+}
