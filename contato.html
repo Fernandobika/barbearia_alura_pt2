@@ -24,19 +24,19 @@
     <main>
       <form>
         <label for="nomesobrenome">Nome e sobrenome</label>
-        <input type="text" id="nomesobrenome"> class="input-padrao"
+        <input type="text" id="nomesobrenome"> class="input-padrao" required>
 
         <label for="email">Email</label>
-        <input type="text" id="email"> class="input-padrao"
+        <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
 
         <label for="telefone">Telefone</label>
-        <input type="text" id="telefone"> class="input-padrao"
+        <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx xxxx">
 
         <label for="mensagem">Mensagem</label>
-        <textarea cols="10" rows="10" id="mensagem"> class="input-padrao"
-        <textarea>
+        <textarea cols="70" rows="10" id="mensagem" class="input-padrao"
+        <fieldset>
 
-          <div> 
+          <fieldset>
            <p>como prefere nosso contato</p>
            <label for="radio-email"><input  type="radio" name="contato" valeu="email"  
             id="radio-email">Email</label>
@@ -46,13 +46,13 @@
 
             <label for="radio-whatzapp"><input  type="radio" name="contato" valeu="whatzapp"  
             id="radio-whatzapp">Whatzapp</label>
-          </div> 
+          </fieldset>
            <select>
           <option>Manhã</option>
           <option>Tarde</option>
           <option>Noite</option>
           </select> 
-            <div> 
+        </fieldset> 
 
           <label class="checkbox"><input type="checkbox"> Gostaria de receber nossas novidades por email </label>
 
