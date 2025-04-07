@@ -62,12 +62,20 @@ display:oninle-block;
 vertical-align: top;
 }
 
+imagembeneficios{
+	width: 60%;
+   }
+
 .itens {
 	line-height: 1.5;
 }
 
-.imagembeneficios{
- width: 60%;
+.itens:first-chilo{
+	front-weight:bold;
+}
+
+.itens:before{
+content:"☠";
 }
 
 .mapa{
@@ -76,7 +84,7 @@ vertical-align: top;
 }
 
 mapa p{
-	margin: 0  0 ;
+	margin: 0  0 2em ;
 text-align: center;
 }
 
