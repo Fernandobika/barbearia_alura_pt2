@@ -1,8 +1,12 @@
 @import url(produtos.css);
 
-man {
+body{
+	font-family: ´Roboto´ ,sans-serif;
+ }
+
+main {
     width:940px;
-    margin:e auto;
+    margin:0 auto;
 }
 
 form {
